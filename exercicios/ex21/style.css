@@ -1,0 +1,16 @@
+h1 {
+    background-color: darkolivegreen;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid darkblue;
+
+    padding: 20px;
+
+    margin: 20px auto;
+    
+}
+
+a {
+    border: 10px solid red
+}

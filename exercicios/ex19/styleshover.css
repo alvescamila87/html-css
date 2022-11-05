@@ -1,0 +1,14 @@
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: red;
+}
+
+div:hover {
+    color: red;
+}
+
