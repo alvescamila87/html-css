@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos em iframe</title>
+    <style>
+        iframe{
+            width:300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando o uso de um iframe</h1>
+    <h2>Opção 1</h2>
+    <p>Acessando o site do <a href="https://www.cursoemvideo.com" target="_blank">CursoemVideo</a> para aprender a programar. </p>
+    <h2>Opção 2</h2>
+    <p>Acessando o site do 
+        <iframe src="https://www.cursoemvideo.com" frameborder="0" scrolling="no">
+            <a href="https://www.cursoemvideo.com" target="_blank">CursoemVideo</a> <!-- Caso o iframe não carregar, há o link para acesso. -->
+        </iframe>para aprender a programar. </p>
+    <h2>Opção 3</h2>
+    <p>Repositório d Guanabara <iframe src="https://gustavoguanabara.github.io" frameborder="0" scrolling="yes" height="400" width="400"></iframe>para aprender a programar. </p>  <!-- As configurações da CSS são soberadas a essa do iframe inline. -->   
+</body>
+</html>
