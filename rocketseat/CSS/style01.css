@@ -1,0 +1,14 @@
+/* Anatomia do CSS 
+
+- Selector: h1
+- Declaration: tudo o que está dentro das {} do seletor 
+- Properties: color, background-color, font-size...
+- Property value: são os valores de cada propriedade...
+
+*/ 
+
+h1 {
+    color: aliceblue;
+    background-color: olivedrab;
+    font-size: 60px;
+}

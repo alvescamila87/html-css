@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyperlinks</title>
+</head>
+<body>
+
+    <!-- 
+        Hyperlink - elemento âncora: <a>
+
+        + Anatomia
+
+        + Atributos:
+            - globais: title (funciona como tooltip), id, class...
+            - href:
+                - para onde iremos, quando clicarmos no link?
+                    - url completa: precisa colocar "https://"
+                    - fragmento: faz a rolagem até o texto da página
+                    - e-mail: envia e-mail utilizando a ferramenta padrão (outlook, por exemplo)
+                    - telefone: liga para o telefone
+                    - e outros (expansão que podemos adicionar ao HTML)
+            - download: permite fazer download do arquivo
+            - target
+                - _self (padrão)
+                - _blank
+            - url absoluto: link completo com "https://"
+            - url relativo: a pasta a local
+    -->
+
+<h1>Hyperlinks</h1>
+<h2>Anatomia da âncora</h2>
+<a href="#">Conteúdo</a><br>
+<a href="index13_elementos_genericos.html" target="_blank">Elementos genéricos</a>
+
+<h2>Atributos de âncora</h2>
+
+<h3>e-mail</h3>
+<a href="mailto:nomedoemail@gmail.com">E-mail</a>
+
+<h3>telefone</h3>
+<a href="tel:+5547963251478">Telefone</a>
+
+<h3>blank</h3>
+<a href="https://www.google.com" target="_blank" rel="external" title="Ir para o Google">Google</a>
+
+<h3>self</h3>
+<a href="www.index2.com" target="_self">Página dentro do próprio site</a>
+
+<h3>fragmento</h3>
+<ul>
+    <li><a href="#about">Sobre mim</a></li>
+    <li><a href="#history">História</a></li>
+    <li><a href="#works">Trabalhos</a></li>
+</ul>
+
+<h4 id="about">Sobre mim</h4>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, beatae? Ad odit veniam eaque, ex doloribus atque, modi deleniti consequatur repellendus nam distinctio vero nemo, eligendi tempora! Reprehenderit, rerum quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore itaque cupiditate neque aliquam quibusdam? Sed cum, facilis expedita eos repellendus sapiente, corrupti ipsa iure soluta aspernatur amet earum, doloremque quibusdam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptates modi vel ullam quam voluptate, praesentium, blanditiis facere tenetur mollitia tempora quasi magnam repudiandae, hic obcaecati amet. Temporibus, assumenda cum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit rerum dolorem recusandae autem culpa eos deserunt unde, voluptate ipsa quae labore, hic illo sed. Et necessitatibus deleniti ipsum non consequuntur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure mollitia sunt vero sequi quisquam voluptatibus similique qui odio dolorem quia animi iusto velit deserunt, nam temporibus soluta provident? Architecto, id. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore excepturi nam consectetur tenetur sunt itaque quo aliquid molestiae ipsa velit dolore consequuntur, aliquam impedit libero quaerat beatae. Natus, laborum consectetur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, adipisci facere possimus, illo dolorem nobis consectetur distinctio nam, vel voluptatem temporibus velit dignissimos eius doloribus explicabo iure aperiam excepturi. Minus!</p>
+
+<h4 id="history">História</h4>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam est eius reiciendis voluptatibus repudiandae nobis adipisci accusantium dolor omnis. Odio animi, maxime illum praesentium eos cumque eum dolores quo sequi.</p>
+
+<h4 id="works">Trabalhos</h4>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, earum rerum! Officia nihil debitis praesentium adipisci ratione, quidem vel iure libero excepturi aliquid expedita numquam sed veritatis voluptatibus impedit. Omnis. Fugit rerum dolorem recusandae autem culpa eos deserunt unde, voluptate ipsa quae labore, hic illo sed. Et necessitatibus deleniti ipsum non consequuntur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure mollitia sunt vero sequi quisquam voluptatibus similique qui odio dolorem quia animi iusto velit deserunt, nam temporibus soluta provident? Architecto, id. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore excepturi nam consectetur tenetur sunt itaque quo aliquid molestiae ipsa velit dolore consequuntur, aliquam impedit libero quaerat beatae. Natus, laborum consectetur! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore, adipisci facere possimus, illo dolorem nobis consectetur distinctio nam, vel voluptatem temporibus velit dignissimos eius doloribus explicabo iure aperiam excepturi. Minus!</p>
+
+<h3>Links para Downloads</h3>
+    <ul>
+        <li><a href="downloads/okr.pdf" download="okr.pdf" type="application/pdf">Link para OKRs</a></li>
+        <li><a href="downloads/okr.zip" download="okr.zip" type="application/zip">Link para Livro</a></li>
+    </ul>
+
+</body>
+</html>
