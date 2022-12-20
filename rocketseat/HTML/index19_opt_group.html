@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<!--
+    option group: vai fazer um agrupamento dentro do select
+    <select> 
+        - menu de opções
+        - multiple
+        -size
+    
+    <optgroup> 
+
+    <option>
+        - opções a serem selecionadas no menu
+
+
+        Atributos:
+        - multiplo
+        - size
+-->
+<form action="" method=""> 
+    <label>Please choose one or more pets: </label><br>
+    <select name="pets" >
+        <optgroup label="4-legged pets"> <!--melhor manter o label-->
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster" disabled>Hamster</option>
+        </optgroup>
+        <optgroup label="Flying pets">  <!--melhor manter o label-->
+            <option value="parrot">Parrot</option>
+            <option value="macaw">Macaw</option>
+            <option value="albatross">Albatross</option>
+        </optgroup>
+        
+    </select>
+</form>
+</body>
+</html>

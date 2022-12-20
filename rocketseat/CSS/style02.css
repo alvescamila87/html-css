@@ -1,0 +1,16 @@
+/* Box Model 
+
+- Tamanho (largura x altura): width | height
+- Conteúdo: content
+- Bordas: border
+- Preenchimento interno: padding
+- Espaços fora da caixa: margin
+
+*/ 
+
+/* Display 
+
+- display block: elementos um embaixo do outro, como: p, div, section, h1, h2...
+- display inline: elementos um ao lado do outro, como: a, strong, span, em
+
+*/ 

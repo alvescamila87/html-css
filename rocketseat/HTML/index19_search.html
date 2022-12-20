@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<!--
+    <input type="search">
+        Atributos:
+        - list / <datalist>
+        - pattern:[0-9]{2}, em caso de pesquisa por ID, por exemplo
+        - aria-label: para os casos de screenreader
+
+-->
+
+    <datalist id="searchterms">
+        <option>Mac</option>
+        <option>Windows</option>
+        <option>Linux</option>
+
+    </datalist>
+
+<form action="" method="">
+    <input 
+        type="search" 
+        name="q" 
+        list="searchterms" 
+        size="30"
+        aria-label="Campo de pesquisa: Digite seu termo de busca"
+        placeholder="Digite seu termo de busca">
+    
+    <button>Search</button>
+    <!-- name -> q=searchterm-->
+
+</form>
+</body>
+</html>

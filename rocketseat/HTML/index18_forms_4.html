@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<!--
+    <datalist>
+        Atributos comuns:
+        - type
+            - submit
+            - reset
+            - button
+        - autofocus
+        - disabled
+        - name
+        - value
+        - form: permite linkar ao id de um form;
+
+
+-->
+
+<input 
+    type="text"
+    list="fruitdata"
+    placeholder="Choose a fruit">
+
+
+<datalist id="fruitdata">
+    <option>apple</option>
+    <option>banana</option>
+    <option>papaya</option>
+    <option>strawberry</option>
+    <option>orange</option>
+</datalist>
+
+<datalist id="colors-data">
+    <option>#000000</option>
+    <option>#ffffff</option>
+    <option>#6d5d47</option>
+    <option>#6d689d</option>
+</datalist>
+
+<input
+    type="color"
+    list="colors-data">
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<!--
+    Formulário
+    tag <form>
+
+    - controle
+    - interação
+    - input 
+    - não é possível colocar um form dentro de outro
+
+    - method:
+        - get
+        - post: restrito
+    
+    - fieldset: agrupador de campos
+    - legend: legenda ao agrupador de campos
+
+-->
+
+<form id="form-profile" action="" method="GET">
+    <input type="submit" value="Enviar">
+</form>
+
+<!-- Caso quiser deixar fieldset fora de form, basta referenciar o id do form no fieldset -->
+<fieldset form="form-profile">
+    <legend>Informações de contato</legend>
+    <label for="name">Nome: 
+        <input type="text" name="name" id="name">
+    </label>        
+</fieldset>
+
+</body>
+</html>

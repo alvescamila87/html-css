@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<!--
+    <input type="email">
+        Atributos:
+        - size: tamanho visual do campo
+        - title: tooltip/mensagem 
+        - placeholder
+        - readonly
+        - disabled
+        - required
+        - autocomplete
+        - multiple: permite incluir mais de um e-mail separados por ','
+        - minlength
+        - maxlength
+        - pattern: recomendado para padrão de segurança, ex: ".+@rocketseat\.com\.br" (caso seja e-mail somente da rocketseat, por exemplo)
+        -<datalist>: recomendação de e-mails
+
+-->
+<form action="" method="get">
+    <label for="email">E-mail:</label>
+    <input 
+        type="email" 
+        name="email" 
+        id="email" 
+        size="40"
+        title="Informe um e-mail válido."
+        required
+        placeholder="Informe um e-mail"
+        autocomplete="email"
+        minlength="8" 
+        maxlength="255"
+        >
+
+    <input type="submit" value="Enviar">    
+</form>
+</body>
+</html>

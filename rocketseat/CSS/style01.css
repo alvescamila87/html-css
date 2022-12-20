@@ -1,6 +1,6 @@
 /* Anatomia do CSS 
 
-- Selector: h1
+- Selector: os seletores conectam o elemento de HTML com o CSS, exemplo: h1, div, p
 - Declaration: tudo o que está dentro das {} do seletor 
 - Properties: color, background-color, font-size...
 - Property value: são os valores de cada propriedade...
@@ -12,3 +12,32 @@ h1 {
     background-color: olivedrab;
     font-size: 60px;
 }
+
+/* Tipos de Seletores
+
+- Global: *
+- Element/Type selector: h1, div, p
+- ID selector: #box, #container
+- Class selector: .carrinho, .button
+- Attribute selector: pseudo-class, pseudo-element (::before, ::after)
+
+*/ 
+
+
+/* Origem do estilo
+
+- inline > tag style > tag link > @import
+- especificidade: 0 - universal, 1 - element type, 10 - class, 100 - id selector, 1000 - inline
+- regra !important (não é boa prática)
+- at rules: media, import, font-face, keyfranes
+
+*/ 
+
+
+/* Funções
+
+- rgb();
+- url();
+- calc();
+
+*/ 

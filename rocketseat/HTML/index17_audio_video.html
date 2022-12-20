@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio e Video</Video></title>
+</head>
+<body>
+<!-- 
+    <Video>
+    - src
+    - controls
+        - width
+        - height
+        - autoplay
+        - preload
+        - loop
+        - muted
+        - poster (imagem de fundo)
+
+    - se não funcionar?
+        - fallback content
+    - source
+        -src
+        -type
+    - sobre serviços de terceiros
+
+    <audio>
+    - src
+    - controls
+
+    <img>
+
+    <background-image>
+
+    - Imagem rasterizada (pixels) x Imagem vetorizada (svg)
+
+-->
+<h1>Audio, Video, Mapa, Imagens no HTML</h1>
+<p>
+<audio 
+    src="files/Spooky Boop - Otis McDonald.mp3" 
+    controls 
+    type="audio/mp3"
+</audio>      
+</p>  
+<br>
+<iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/dEii_pzm3MY" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+</iframe>
+<br>
+<iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.544245259574!2d-118.42966527301623!3d34.081195618540924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bc69021f232d%3A0xc7358aebcec7553f!2s100%20N%20Carolwood%20Dr%2C%20Los%20Angeles%2C%20CA%2090077%2C%20USA!5e0!3m2!1sen!2sbr!4v1671369256104!5m2!1sen!2sbr" 
+    width="600" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+<p>
+   <img 
+        src="https://source.unsplash.com/random" 
+        alt="Imagem random"
+        title="Imagem random"
+        width="600" 
+        height="450"  
+    >     
+</p>
+<a href="https://rocketseat.com.br/">
+   <img 
+        src="https://rocketseat.com.br/icons/icon-48-48.png" 
+        alt="Imagem rocketseat"
+        title="Icon rocketseat"
+        height="50"
+    
+    > Isso não foi carregado.
+</a>
+<p style="background-image: url('files/imagem1.jpg');" width="500" height="500">Imagem</p> <!--não é setântico -->
+<div class="figure">
+    <a href="https://google.com">
+        <img 
+        src="https://source.unsplash.com/random" 
+        alt="Imagem random"
+        title="Imagem random"
+        width="600" 
+        height="450"  
+        >
+     </a>
+     <p>Imagem random</p>
+</div> <!--não é setântico -->
+<a href="https://google.com"> <!-- é setântico -->
+    <figure>
+            <img 
+            src="https://source.unsplash.com/random" 
+            alt="Imagem random"
+            title="Imagem random"
+            width="600" 
+            height="450"  
+            >
+        <figcaption>Imagem random</figcaption>
+    </figure>
+</a>
+<svg 
+    width="500"
+    height="500">
+        <rect 
+            stroke="purple"
+            stroke-width="20"
+            width="100%"
+            height="100%"
+            fill="orange"/>
+</svg>
+</body>
+</html>

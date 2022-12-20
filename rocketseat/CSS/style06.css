@@ -1,0 +1,25 @@
+/* Fonts
+
+- font-family: inclui fallback font
+- font-weight: peso da fonte (dependendo da família da fonte, não tem muitos pesos a estilizar)
+- font-style: normal, italic, oblique
+- font-size: tamanho
+
+*/ 
+
+/* Web Fonts
+
+- @import (fonts.google.com)
+    - incluir link no HTML
+    - incluir font-family
+- font-face
+
+*/ 
+
+/* Style Fonts
+
+- text-decoration: underline
+- text-align: justify
+
+*/ 
+

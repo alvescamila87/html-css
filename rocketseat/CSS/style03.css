@@ -1,0 +1,36 @@
+/* Cores
+
+- background-color: para fundo das caixas
+- color: para textos
+- border-color: para bordas das caixas
+
+*/ 
+
+/* Background: properties
+
+    background-color: rgb();
+    background-image: url(); exibição da imagem
+    background-position: center; posição da imagem
+    background-repeat: no-repeat; repetição de imagem
+    background-size: contain;
+    background-origin: content-box;
+    background-clip: content-box;
+    background-attachment: fixed; se a imagem acompanha ou não o scroll da página
+     background: linear-gradient(); degradê de cor
+
+*/ 
+
+/* Position
+
+- static
+- relative
+- absolute
+- fixed (scroll)
+- z-index (stacking)
+
+*/ 
+
+
+
+
+
