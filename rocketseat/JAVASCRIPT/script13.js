@@ -29,7 +29,7 @@ console.log([
     function() { return "alô" },
 ][2]())
 
-//4 transformar uma cadeia de caracteres em elemntos de um array
+//4 transformar uma cadeia de caracteres em elementos de um array
 
 let word2 = "manipulação"
 console.log(Array.from(word2))
