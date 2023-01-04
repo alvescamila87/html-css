@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 
 :root {
     --body-bg-color: #22212C;
@@ -7,16 +7,12 @@
     --bg-techs: #CB92B1;
 }
 
-/* body {
-    font-family: 'Passion One', cursive;
-    font-weight: 400;
-    
-}
-*/
 
 body {
     background-color: #22212C;
     color: #837E9F;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
 }
 
 .card {
