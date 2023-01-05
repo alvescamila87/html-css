@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --body-bg-color: #22212C;
     --text-color: #837E9F;
@@ -9,16 +15,159 @@
 
 
 body {
-    background-color: #22212C;
+    background-color: var( --body-bg-color);
     color: #837E9F;
     font-family: 'Merriweather Sans', sans-serif;
     font-weight: 400;
 }
 
 .card {
-    background-color: #302F3D;
+    background-color: var( --bg-cards);
 }
 
 .techs {
-    background-color: #CB92B1;
+    background-color: var( --bg-techs);
+}
+
+.container-profile {
+    width: 350px;
+    height: 360px;
+    border: 1px solid var( --bg-cards);
+    padding: 0 20px;
+    margin: 3%;
+    box-shadow: 1px solid black;
+    text-align: center;
+    border-radius: 30px;
+    position: static;
+}
+
+.container-profile > img {
+    width: 150px;
+    height: 180px;
+    border: 3px solid rgb(15, 243, 15);
+    margin: 50px 10px 10px 10px;
+    border-radius: 90px;
+   
+}
+
+.container-profile > h2, p {
+    padding: 15px;   
+}
+
+.container-social-media {
+    width: 350px;
+    height: 360px;
+    border: 1px solid var( --bg-cards);
+    padding: 0 20px;
+    margin: 3%;
+    box-shadow: 1px solid black;
+    text-align: left;
+    border-radius: 30px;
+    position: static;   
+}
+
+.container-social-media > ul > li {
+    margin: 20px;
+    color: (var(--text-color));
+}
+
+.container-tech {
+    width: 350px;
+    height: 360px;
+    border: 1px solid var( --bg-cards);
+    padding: 0 20px;
+    margin: 3%;
+    box-shadow: 1px solid black;
+    text-align: center;
+    border-radius: 30px;
+    position: static;
+}
+
+.container-jobs {
+    width: 350px;
+    height: 360px;
+    border: 1px solid var( --bg-cards);
+    padding: 0 20px;
+    margin: 3%;
+    box-shadow: 1px solid black;
+    text-align: center;
+    border-radius: 30px;
+    position: static;
+}
+
+.container-schools {
+    width: 350px;
+    height: 360px;
+    border: 1px solid var( --bg-cards);
+    padding: 0 20px;
+    margin: 3%;
+    box-shadow: 1px solid black;
+    text-align: center;
+    border-radius: 30px;
+    position: static;
+}
+
+.container-projects-content {
+    width: 1300px;
+    height: 200px;
+    border: 1px solid var( --bg-cards);;
+    padding: 0 20px;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    background-color: var( --bg-cards);
+    border-radius: 30px;
+
+}
+
+.container-card-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    border: 1px solid var( --bg-cards);
+    width: 500px;
+    height: 500;
+    padding: 0 20px;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    background-color: var( --bg-cards);
+    border-radius: 30px;
+}
+
+.card2 {
+    border: 1px solid var( --bg-cards);
+    width: 500px;
+    height: 500;
+    padding: 0 20px;
+    position: absolute;
+    top: 500px;
+    left: 1200px;
+    background-color: var( --bg-cards);
+    border-radius: 30px;
+}
+
+.container-post1-content {
+    width: 1300px;
+    height: 200px;
+    border: 1px solid var( --bg-cards);
+    padding: 0 20px;
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    background-color: var( --bg-cards);
+    border-radius: 30px;
+}
+.container-post2-content {
+    width: 1300px;
+    height: 200px;
+    border: 1px solid var( --bg-cards);;
+    padding: 0 20px;
+    position: absolute;
+    top: 1500px;
+    left: 500px;
+    background-color: var( --bg-cards);
+    border-radius: 30px;
 }
