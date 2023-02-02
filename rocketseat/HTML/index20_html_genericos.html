@@ -1,0 +1,42 @@
+<!--
+ 
+    Quando não encontra elementos semânticos, usar esses de uso genérico:
+    <div>
+        - usado se não conseguir achar elemento de BLOCO semântico.
+
+    <span>
+        - usado se não conseguir achar elemento de TEXTO semântico.
+
+    em ambas, use atributos globais como id e class para entregar maior significado
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos genéricos</title>
+</head>
+<body>
+    <!-- Exemplo 1 de uso SPAN -->
+
+    <h1>Título <span class="destaque"> destacado</span></h1>
+
+
+    <!-- Exemplo 2 de uso DIV -->
+    <div class="cart">
+        <h2>Carrinho de compras</h2>
+    </div>
+
+        <!-- 
+            
+        Considerando que a seção tem contexto relacionado à página e o carrinho pertence ao site, seria melhor usar DIV, do que o exemplo abaixo:
+        
+        <section>
+            <h2>Carrinho de compras</h2>
+        </section>
+                
+        -->
+</body>
+</html>
