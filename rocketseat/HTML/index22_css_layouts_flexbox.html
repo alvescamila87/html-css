@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+</head>
+<style>
+
+.flexbox1 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.flexbox2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item:nth-child(1) {
+    order: 1;
+}
+
+</style>
+<body>
+
+    <!-- flexbox 
+
+        a caixa se forna flex, fazendo com que os elemntos internos possam receber melhor:
+        - alinhamento
+        - ordenação
+        - tamanhos flexíveis
+    
+    -->
+    
+<div class="flexbox1">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+</div>
+
+<div class="flexbox2">
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+</div>
+
+</body>
+</html>

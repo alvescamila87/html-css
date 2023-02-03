@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo elements</title>
+</head>
+<style>
+    li::before {
+        content: ";"
+    }
+
+    li::after {
+        content: "____"
+    }
+
+    p::first-line {
+        font-weight: bolder;
+    }
+</style>
+<body>
+    <li>Gratidão</li>
+    <li>Esperança</li>
+    <li>Fé</li>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae provident, dolor similique nam quia iure aperiam? Veniam soluta, veritatis maiores ullam similique architecto ab accusamus molestias totam commodi facilis amet?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At aspernatur magni impedit aperiam autem eveniet in unde ipsum facilis accusantium, aliquid quas voluptatum culpa quae commodi pariatur sunt sed corrupti!</p>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio repellat aperiam laudantium accusamus unde   numquam totam harum. Molestiae, consectetur, odit autem non nam vero architecto illum eaque a reiciendis ullam.</p>
+</body>
+</html>
