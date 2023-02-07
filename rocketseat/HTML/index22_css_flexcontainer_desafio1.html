@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex container - desafio 1</title>
+</head>
+<style>
+
+* {
+    margin: 0;
+}
+
+header {
+    padding: 4rem;
+    background-color: lightgray;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: .8rem;
+}
+
+ul li:last-child {
+    background: blue;
+    color: white;
+    padding: .8rem;
+}
+
+</style>
+<body>
+    <header>
+        <nav>
+            <a href="#">LOGO</a>
+            <ul>
+                <li>home</li>
+                <li>about</li>
+                <li>services</li>
+                <li>testimonials</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+</body>
+</html>

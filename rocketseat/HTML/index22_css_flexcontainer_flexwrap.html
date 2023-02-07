@@ -8,9 +8,15 @@
 </head>
 <style>
 
-.container {
+.box {
     display: flex;
-    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    border: 1px dashed red;
+}
+
+.box div {
+    border: 1px solid;
+    width: 80px;
 }
 
 </style>
@@ -19,16 +25,18 @@
     <!-- flex container - flex wrap - multiplas linhas
         - podemos usar multi linhas
         - cada nova linha, um novo flex container
+        - faz quebra de linha, jogando o texto para a próxima linha, de acordo com o tamanho da tela.
 
     -->
     
 
-<!-- container caixa box (quando colocar display flexbox, ela fica flex) -->
-<div class="container">
-    <div class="item">A</div>
-    <div class="item">B</div>
-    <div class="item">C</div>
+<div class="box">
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
 </div>
+
 
 </body>
 </html>

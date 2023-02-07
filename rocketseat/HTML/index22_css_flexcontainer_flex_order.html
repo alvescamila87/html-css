@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex container - order items</title>
+</head>
+<style>
+
+.box{
+    display: flex;
+    border: 1px dashed red;
+}
+
+.box div {
+    border: 1px solid;
+}
+
+.box div:nth-child(1){
+    order: 1;
+}
+
+.box div:nth-child(2){
+    order: 20;
+}
+
+.box div:nth-child(3){
+    order: 0;
+}
+
+.box div:nth-child(4){
+    order: -1;
+}
+
+</style>
+<body>
+
+    <!-- flex: order items
+        É melhor fazer a ordenação na div, do que usar o order no css para trocar a posição dos elementos.
+    -->
+    
+
+<div class="box">
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+</div>
+
+
+</body>
+</html>

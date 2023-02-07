@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex container - justify-content</title>
+</head>
+<style>
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    border: 1px dashed red;
+}
+
+.box div {
+    border: 1px solid;
+    
+}
+
+</style>
+<body>
+
+    <!-- flex container - justify-content (no eixo principal):
+        - alinhamento dos elementos dentro do container
+        - distribuição dos elementos
+            - flex-start
+            - flex-end
+            - center
+            - space -around: espacço por igual ao redor
+            - space -between: espaço por igual entre eles
+            - space -evenly: espaço por igual em cada um deles
+
+        lembrando que, para inverter o eixo de display flex, pode incluir o "flex-direction" e colocar um 'height'
+
+    -->
+    
+
+<div class="box">
+    <div>A</div>
+    <div>B</div>
+    <div>C</div>
+    <div>D</div>
+</div>
+
+
+</body>
+</html>
