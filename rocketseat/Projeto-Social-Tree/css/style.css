@@ -28,13 +28,17 @@ header p {
 
 main div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     border: 1px solid;
-    flex: 1;
+    border-radius: 3px;
+    margin: auto;
+    height: 40px;
+    width: 200px;
 
 }
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1.5rem;
 }
