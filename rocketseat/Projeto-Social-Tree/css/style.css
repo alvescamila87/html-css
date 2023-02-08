@@ -16,29 +16,66 @@ body {
     background-color: var( --body-bg-color);
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
 header img {
     border-radius: 80px;
     border: 2px solid var(--purple);
     padding: 5px;
+    display: flex;
 }
 
 header p {
     text-align: center;
+    margin-bottom: 20px;
 }
 
 main div {
     display: flex;
     justify-content: center;
-    border: 1px solid;
+    align-items: center;
+    border: 2px solid;
     border-radius: 3px;
     margin: auto;
     height: 40px;
-    width: 200px;
+    width: 300px;
+    margin-top: 10px;
+}
 
+main div a {
+    text-decoration: none;
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+a:hover {
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+main p {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main p a {
+    text-decoration: none;
+    background-color: var(--body-bg-color);
+    color: var(--purple);
+    font-weight: bold;
 }
 
 footer {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+    margin-top: 50px;
 }
