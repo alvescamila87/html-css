@@ -1,0 +1,1 @@
+process.stdout.write("Alguma coisa \n\n\n")
