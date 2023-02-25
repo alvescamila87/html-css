@@ -1,0 +1,40 @@
+<!-- CSS - Flexbox 1 utilizando espaços entre uls / lis-->
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container {
+    width: 360px;
+    border: 1px solid red;
+    margin: 60px auto 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+ul li {
+    border: 1px solid blue;
+}
+
+</style>
+<body>
+    <div id="container">
+        <ul>
+            <li><a href="#">Site 1</a></li>
+            <li><a href="#">Site 2</a></li>
+            <li><a href="#">Site 3</a></li>
+        </ul>
+    </div>
+
+</body>

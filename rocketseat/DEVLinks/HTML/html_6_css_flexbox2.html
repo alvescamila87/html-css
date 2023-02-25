@@ -1,0 +1,57 @@
+<!-- CSS - Flexbox 2 utilizando espaços no 'a' entre uls / lis 
+
+    display: flex;
+    justify-content: center;
+
+    ou pode usar, pois é texto no 'a'
+
+    display: block;
+    text-align: center;
+
+    na altura da box pode ser:
+    - height ou
+    - padding
+
+
+-->
+
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container {
+    width: 360px;
+    border: 1px solid red;
+    margin: 60px auto 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 16px 24px;
+}
+
+</style>
+<body>
+    <div id="container">
+        <ul>
+            <li><a href="#">Site 1</a></li>
+            <li><a href="#">Site 2</a></li>
+            <li><a href="#">Site 3</a></li>
+        </ul>
+    </div>
+
+</body>
