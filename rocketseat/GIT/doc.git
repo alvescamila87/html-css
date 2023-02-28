@@ -12,8 +12,26 @@ git log
 vim 'file+extension'
 cat 'file+extension'
 
+
+// inicia o git (repositório) no seu projeto
+git init
+
+// adiciona todos os arquivos moditificados ao stage
 git add .
 
+// crua e descreve um ponto na história
 git commit -m ""
 
+// envia alterações para o repositório remoto
+git push
+
+// permit mover de lugar
 git mv 'folder/file' 'file'
+
+
+--------
+
+branch: linha do tempo
+commit: pontos na linha do tempo
+repo: local onde ficará o histórico do pojeto, a linha do tempo
+stage: preparação do que será enviado do ponto da história
