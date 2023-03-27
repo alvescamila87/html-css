@@ -37,6 +37,9 @@ git branch
 //pra sair da página
 q
 
+//mudar de branch
+git checkout 'nome da branch'
+
 --------
 
 branch: linha do tempo

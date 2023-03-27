@@ -1,0 +1,13 @@
+//merges: colocar conteudo de branch secundária na branch main
+
+//ir para a branch main
+git checkout main
+
+//informar qual branch vai mergiar
+git merge 'nome da branch que vai mergiar com a main'
+
+//subir alterações na main
+git push origin main
+
+
+
