@@ -28,6 +28,14 @@ git push
 // permit mover de lugar
 git mv 'folder/file' 'file'
 
+// 
+git push origin 'nova branch criada'
+
+//
+git branch
+
+//pra sair da página
+q
 
 --------
 
