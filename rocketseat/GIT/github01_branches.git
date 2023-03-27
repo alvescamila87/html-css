@@ -1,0 +1,18 @@
+//criação de branches no github for teams
+
+1. criada a branch 'servicesPages' 
+2. executados no terminal os comandos:
+
+
+// adiciona todos os arquivos moditificados ao stage
+git add .
+
+// crua e descreve um ponto na história
+git commit -m ""
+
+// pra ramificar
+git push origin 'nova branch criada'
+
+// 
+verificar no github nova branch com as alterações que não estão mais em 'main'
+
