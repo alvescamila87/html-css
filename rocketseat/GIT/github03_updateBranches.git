@@ -2,3 +2,17 @@
 
 //ver as branches a serem atualizadas 
 git branch -a
+
+//atualizar tudo o que existe no github para nossa máquina
+git fetch
+
+//entrar na branch atualizadas
+git checkout 'branch atualizada'
+
+//ao deletar a branch no github não é apagada da máquina
+
+//vai apagar da máquina
+git fetch -p
+
+//deletar 
+git branch -D 'nome da branch a ser apagada'
