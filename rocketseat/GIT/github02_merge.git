@@ -9,5 +9,19 @@ git merge 'nome da branch que vai mergiar com a main'
 //subir alterações na main
 git push origin main
 
+//ver as branches que possui
+git branch
+
+//selecionar a branch
+git branch 'nome da branch'
+
+//apagar a branch (se for apagar não pode estar na DENTRO da branch)
+git branch -D 'nome da branch que quer apagar'
+
+//atualizar a branch
+git push origin main
+
+//apagar a branch do github
+git push origin --delete 'nome da branch que quer apagar'
 
 

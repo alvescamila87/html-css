@@ -1,0 +1,4 @@
+//atualização de branches
+
+//ver as branches a serem atualizadas 
+git branch -a
