@@ -4,10 +4,10 @@
 2. executados no terminal os comandos:
 
 
-// adiciona todos os arquivos moditificados ao stage
+// adiciona todos os arquivos modificados ao stage
 git add .
 
-// crua e descreve um ponto na história
+// cria e descreve um ponto na história
 git commit -m ""
 
 // pra ramificar
