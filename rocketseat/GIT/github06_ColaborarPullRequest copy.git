@@ -1,0 +1,21 @@
+//pull request: é possível colcaborar no pull request público
+
+1. Encontrar um repositório
+//github
+
+2. Clicar em FORK
+
+3. Copiar projeto para alterar em SSH
+// git clone 'colar o SSH ou HTTPS'
+
+4. adiciona todos os arquivos modificados ao stage
+//git add .
+
+5. Comentar 
+//git commit -m 'comentário'
+
+6. criar pull request
+//git push origin 'nova branch'
+
+7. aprovar pull request no github
+
