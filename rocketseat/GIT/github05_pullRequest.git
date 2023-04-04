@@ -1,1 +1,22 @@
 //pull request: pedido de enviar uma coisa de uma branch para outra branch
+
+1. Criar a nova branch
+//git branch 'nova branch'
+
+2. Selecionar nova branch
+//git checkout 'nova branch'
+
+3. Realizar alterações
+No código
+
+4. adiciona todos os arquivos modificados ao stage
+//git add .
+
+5. Comentar 
+//git commit -m 'comentário'
+
+6. criar pull request
+//git push origin 'nova branch'
+
+7. aprovar pull request no github
+
