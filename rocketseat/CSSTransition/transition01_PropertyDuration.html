@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Transition</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box-red {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: #F00;
+            transition-property: all;
+            transition-duration: 1s;
+            /* 
+                transition-property: background-color;
+            */
+        }
+
+        .box-red:hover {
+            background-color: #FF0;
+            transition-property: background-color, width;
+            transition-duration: 1s;
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+   <div class="box-red"></div> 
+</body>
+</html>
