@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Animation Delay</title>
+    <title>CSS Animation Direction</title>
     <style>
         .ball {
             background-color: red;
             border-radius: 100%;
-            width: 300px;
-            height: 300px;
+            width: 100px;
+            height: 100px;
             position: relative;
 
             animation-name: example-two;
             animation-duration: 3s;
             animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
         }
 
         @keyframes example-one {
@@ -68,7 +70,11 @@
     <div class="ball"></div>
     <!-- animation 
     
-        animation delay : tempo stand-by para iniciar a animação
+        reverse : vai iniciar no 100% até chegar no 0%, ao invés de 0 a 100;
+        alternate : vai iniciar no 0% até chegar no 100%, e vice-versa;
+        alternate-reverse : vai iniciar no 100% até chegar no 0%, e vice-versa;
+        
+
 
     -->
 </body>
