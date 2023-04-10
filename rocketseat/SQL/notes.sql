@@ -6,10 +6,50 @@
 
 */
 
-/* Aula de SQL Avançado - Comandos 
+/* Aula de SQL Avançado - JOIN  
 
-    -JOIN: unir tabelas
+    -JOIN: unir tabelas (exibe o conteúdo de duas tabelas que possuem relacionamento)
+    - ON: relacionamento das tabelas
 
 */
 
-SELECT * FROM 
+SELECT * FROM funcionarios JOIN departamentos ON departamentos.id_dept = funcionarios.id_departamento
+
+/* Aula de SQL Avançado - JOIN + WHERE 
+
+    - WHERE: utilizado para filtragem de registros a serem exibidos
+
+*/
+
+SELECT * FROM funcionarios JOIN departamentos ON departamentos.id_dept = funcionarios.id_departamento WHERE departamentos.id_dept = 2
+
+/* Aula de SQL Avançado - JOIN especifiando campos
+
+    - troca o * pelos campos (colunas) e serem exibidas, exibindo somente essas colunas de informações no retorno do sql
+
+*/
+
+SELECT funcionarios.nome, funcionarios.cpf, departamentos.descricao
+FROM funcionarios 
+JOIN departamentos 
+ON funcionarios.id_departamento = departamentos.id_dept
+
+/* Aula de SQL Avançado - Alias
+
+    - Opção 1: alias mudar o nome das tabelas no momento de realizar os sql, utilizando o 'as + nome da tabela', depois disso, substituir os 'nomes grandes' pelas tabelas com 'as' + '...'
+    - Opção 2: mudar o nome das colunas no momento de realizar os sql, ou seja, novo nome que dar para as colunas para melhorar a visualização
+
+*/
+
+/* opção 1 */
+SELECT func.nome, func.cpf, dept.descricao
+FROM funcionarios as func
+JOIN departamentos as dept
+ON func.id_departamento = dept.id_dept 
+
+
+/* opção 2 */
+SELECT func.nome as "Nome", func.cpf as "CPF", dept.descricao as "Departamento"
+FROM funcionarios as func
+JOIN departamentos as dept
+ON func.id_departamento = dept.id_dept 
