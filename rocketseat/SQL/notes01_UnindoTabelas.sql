@@ -53,3 +53,18 @@ SELECT func.nome as "Nome", func.cpf as "CPF", dept.descricao as "Departamento"
 FROM funcionarios as func
 JOIN departamentos as dept
 ON func.id_departamento = dept.id_dept 
+
+/* Aula de SQL Avançado - LEFT OUTER JOIN
+
+    - LEFT OUTER JOIN: faz com que todo conteúdo da tabela que está na frente de 'FROM' apareça mesmo que não tenha relacionamento na tabela que tá na frente de 'ON'
+    - LEFT OUTER JOIN: prioriza a exibição a tabela da esquerda
+
+*/
+
+SELECT * FROM funcionarios 
+LEFT OUTER JOIN departamentos 
+ON funcionarios.id_departamento = departamentos.id_dept
+
+SELECT * FROM departamentos
+LEFT OUTER JOIN funcionarios
+ON funcionarios.id_departamento = departamentos.id_dept
